@@ -5,7 +5,9 @@ export default function App() {
   return (
     <div>
       <h1>Hello {times}</h1>
-      <button onClick={() => setTimes((times) => times + 1)}>ADD</button>
+      <button onClick={() => setTimes((times) => times + 1)}>
+        ADD
+      </button>
     </div>
   );
 }
